@@ -32,7 +32,6 @@ npm install
 
 ```
 docker compose up -d
-
 ```
 
 4. Start the server:
@@ -70,12 +69,12 @@ npm run dev
 ```
 
 4. Test the application:
-Go to http://localhost:5173/ and Try adding and deleting a user.
+   Go to http://localhost:5173/ and Try adding and deleting a user.
 
 ## Additional Information
 
 - The server should be running before starting the client.
 - The client application can be accessed at http://localhost:5173 (default port).
 - Make sure to customize configuration and environment variables as needed.
-
-Enjoy using the SearchLand Test App! :)
+- If you'd like to see the detailed implementation guide about the app checkout,check out [notes.md](notes.md).
+  Enjoy using the SearchLand Test App! :)
