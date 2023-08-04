@@ -27,20 +27,25 @@ Customize the `PORT` value in .env if needed.
 npm install
 ```
 
-3. Start the PostgreSQL Container:
+3. Install Docker:
+Make sure you have docker installed on your system.
+For Mac: https://docs.docker.com/desktop/install/mac-install/
+For Windows: https://docs.docker.com/desktop/install/windows-install/
+
+4. Start the PostgreSQL Container:
    This command will start a PostgreSQL database container in detached mode.
 
 ```
 docker compose up -d
 ```
 
-4. Start the server:
+5. Start the server:
 
 ```
 npm run dev
 ```
 
-5. When you're done testing the app, stop and remove the PostgreSQL container:
+6. When you're done testing the app, stop and remove the PostgreSQL container:
 
 ```
 docker compose down
