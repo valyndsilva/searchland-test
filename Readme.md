@@ -4,13 +4,13 @@ Welcome to the SearchLand Test App! This README provides a step-by-step guide to
 
 ## Server Setup
 
-2. Navigate to the server directory:
+### Navigate to the server directory:
 
 ```
 cd server
 ```
 
-2. Create environtment variables:
+### Create environtment variables:
 
 In the `server` directory, create a `.env` file.
 
@@ -21,31 +21,35 @@ PORT=3000
 Ensure that the server is running on the specified port (default is 3000).
 Customize the `PORT` value in .env if needed.
 
-3. Install server dependencies:
+### Install server dependencies:
 
 ```
 npm install
 ```
 
-3. Install Docker:
+### Install Docker:
+
 Make sure you have docker installed on your system.
 For Mac: https://docs.docker.com/desktop/install/mac-install/
 For Windows: https://docs.docker.com/desktop/install/windows-install/
 
-4. Start the PostgreSQL Container:
-   This command will start a PostgreSQL database container in detached mode.
+### Start the PostgreSQL Container:
+
+This command will start a PostgreSQL database container in detached mode.
 
 ```
 docker compose up -d
 ```
 
-5. Start the server:
+### Start the server:
 
 ```
 npm run dev
 ```
 
-6. When you're done testing the app, stop and remove the PostgreSQL container:
+### Stop the PostgreSQL Container:
+
+When you're done testing the app, stop and remove the PostgreSQL container:
 
 ```
 docker compose down
@@ -55,26 +59,28 @@ This command will stop and remove the PostgreSQL container.
 
 ## Client Setup:
 
-1. Navigate to the client directory:
+### Navigate to the client directory:
 
 ```
 cd client
 ```
 
-2. Install client dependencies:
+### Install client dependencies:
 
 ```
 npm install
 ```
 
-3. Start the client:
+### Start the client:
 
 ```
 npm run dev
 ```
 
-4. Test the application:
-   Go to http://localhost:5173/ and Try adding and deleting a user.
+### Test the application:
+
+Go to http://localhost:5173/
+Try adding and deleting a user.
 
 ## Additional Information
 
