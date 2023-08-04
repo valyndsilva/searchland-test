@@ -352,7 +352,7 @@ export type AppRouter = typeof appRouter;
 export default app;
 ```
 
-## Setup Client (Vite + React + TS + Shadcn-ui + TailwindCSS):
+## Setup Client (Vite + React + TS + React Query + Shadcn-ui + TailwindCSS):
 
 ```
 npm init vite@latest
