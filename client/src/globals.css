@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #root {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body{
+    @apply bg-slate-800 text-white;
+  }
+
+}
