@@ -34,6 +34,11 @@ Error: connect ECONNREFUSED ::1:5432
 
 ### Setup PostgreSQL locally using docker.
 
+#### Install Docker:
+Make sure you have docker installed on your system.
+Mac: https://docs.docker.com/desktop/install/mac-install/
+Windows: https://docs.docker.com/desktop/install/windows-install/
+
 #### Create server/docker-compose.yml:
 
 Define the PostgreSQL container and its configuration here.
