@@ -76,5 +76,5 @@ npm run dev
 - The server should be running before starting the client.
 - The client application can be accessed at http://localhost:5173 (default port).
 - Make sure to customize configuration and environment variables as needed.
-- If you'd like to see the detailed implementation guide about the app checkout,check out [notes.md](notes.md).
+- If you'd like to see the detailed implementation guide about the application,check out [notes.md](notes.md).
   Enjoy using the SearchLand Test App! :)
